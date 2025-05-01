@@ -1,12 +1,8 @@
 # PROJECT OVERVIEW
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
-## TEAM ROLES
-    The following are various team available in this project 
+# Team Roles
 
-
- They are in charge studying and understanding customer’s business processes
-Translates customer business needs into requirements
 
  Project manager (PM)
 Makes sure a product or its part is delivered on time and within budget
