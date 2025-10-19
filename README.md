@@ -44,8 +44,7 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-# Database Design
-
+# Database Design Overview
 
 This section outlines the key entities and their relationships for the AirBnB Clone project.
 
@@ -121,15 +120,15 @@ A payment:
 
 ---
 
-### 🔗 Entity Relationships Summary
+### Entity Relationships Summary
 - A **User** can have many **Properties**, **Bookings**, and **Reviews**.
 - A **Property** belongs to one **User**, and can have many **Bookings** and **Reviews**.
 - A **Booking** belongs to one **User** and one **Property**, and can have one **Payment**.
 - A **Review** belongs to one **User** and one **Property**.
 - A **Payment** is made for one **Booking**.
 
-# DETAILED FEATURES OD AIRBNB CLONE PROJECT
 
+# Feature Breakdown
 The backend for the Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
  ### Features 
  Create Account : A user would be able create accou nt or sign up as a new user
@@ -139,9 +138,15 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
  Rating: user can rate a particular property after usage and also comment thier experience with the property
  Login : User can be able to login 
  Search : his feature would enable user to retrieved a particular property listing from the system
+ Listing: Users can list properties
+ Booking: user can book available properties that has been listed
+ User management : Admin are in charge of managiung all types of users
 
 
- # API SECURITY
+
+
+
+ # API Security Overview
 Authentication: this would enable that there is no unauthorise access to user account, it would be design in such a way that when, the leave the  app, they have to identify themselves before gainning access
 
 Authorization : not all user can access each location of the app, this would be use as wel to protect user data, for instance users that do not have a property listing should have full access over the property, like editing the listing info. this protect access and data 
@@ -170,4 +175,7 @@ GitHub Actions – Used to automate tasks like testing and deployment directly f
 Docker – Helps package applications in containers for consistency across environments.
 
 Jenkins, Travis CI, and CircleCI – Widely used tools for managing automated build and deployment pipelines.
+
+# Feature Breakdown
+
 
